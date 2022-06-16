@@ -1,0 +1,151 @@
+$gray-100: hsl(0, 0%, 95%);
+$gray-200: hsl(0, 0%, 85%);
+$gray-300: hsl(0, 0%, 50%);
+$gray-400: hsl(0, 0%, 20%);
+$gray-500: hsl(0, 0%, 15%);
+$gray-600: hsl(0, 0%, 10%);
+$gray-700: hsl(0, 0%, 5%);
+
+$purple: hsl(237, 92%, 75%);
+$purple-dark: hsl(239, 53%, 59%);
+
+$blue: hsl(203, 69%, 59%);
+$blue-dark: hsl(202, 68%, 37%);
+
+$danger: hsl(0, 80%, 62%);
+
+$ff-sans: "Inter", sans-serif;
+
+$fw-regular: 400;
+$fw-bold: 700;
+
+$fs-sm: 0.75rem;
+$fs-md: 0.875rem;
+$fs-base: 1rem;
+
+$br-1: 0.5rem;
+$br-full: 9999px;
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  background-color: $gray-600;
+
+  color: $gray-100;
+  font-family: $ff-sans;
+  font-size: $fs-base;
+  font-weight: $fw-regular;
+  line-height: 1.5;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: $fs-md;
+  }
+}
+@media only screen and (max-width: 425px) {
+  body {
+    font-size: $fs-sm;
+  }
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: $gray-300 $gray-500;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+*::-webkit-scrollbar-track {
+  background: $gray-500;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $gray-300;
+  border-radius: 1rem;
+  border: 1px solid $gray-700;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
