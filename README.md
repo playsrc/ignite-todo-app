@@ -101,7 +101,7 @@ npm run dev
     <img alt="GitHub" src="https://img.shields.io/github/license/mateusabelli/ignite-todo-app">
 </a>
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) para mais detalhes.
 
 ---
 
