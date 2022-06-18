@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="35%" src="./src/assets/logo.svg" />
+  <img width="20%" src="./src/assets/logo.svg" />
 </p>
 
 <p align="center">
@@ -14,31 +14,28 @@
 </p>
 
 <p align="center">
- <a href="#💻-sobre-o-projeto">Sobre</a> •
- <a href="#⚙️-funcionalidades">Funcionalidades</a> •
- <a href="#🎨-layout">Layout</a> • 
- <a href="#🔨-tecnologias-utilizadas">Tecnologias</a> • 
- <a href="#🚀-instalação-e-uso">Instalação</a> • 
- <a href="#📝-licença">Licença</a>
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> • 
+ <a href="#-layout">Layout</a> • 
+ <a href="#-tecnologias-utilizadas">Tecnologias</a> • 
+ <a href="#-instalação-e-uso">Instalação</a> • 
+ <a href="#-licença">Licença</a>
 </p>
 
 <h4 align="center"> 
 	🚧  Projeto concluído 🚀 🚧
 </h4>
 
----
-
 ## 💻 Sobre o projeto
 
 Todo App foi criado para resolução do desafio do curso Ignite (trilha atualizada) da Rocketseat. Essa aplicação apesar de simples é um excelente exemplo para praticar o desenvolvimento de apps CRUD (Create, Read, Update, Delete).
 
 <p align="center">
-  <img src=".github/app-preview.gif" style="border-radius: 0.5rem;">
+  <img src=".github/app-preview.gif">
 </p>
 
----
 
-## ⚙️ Funcionalidades
+## ☑ Funcionalidades
 
 - [x] Inserir tarefas
   - [x] Inserção com enter
@@ -51,32 +48,21 @@ Todo App foi criado para resolução do desafio do curso Ignite (trilha atualiza
   - [x] Redução do tamanho de elementos
 - [x] Navegação total por teclado
 
----
 
 ## 🎨 Layout
 
 ### Desktop
 
-<p align="center">
-  <img src="./.github/desktop-screenshot.png" width="100%" style="
-  border-radius: 0.5rem;">
+<p align="left"> 
+  <img src="./.github/desktop-screenshot.png" width="70%"">
 </p>
 
 ### Mobile
 
-<p align="center" style="
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 1rem;
-">
-  <img src="./.github/mobile-screenshot-1.png" width="48%" style="
-  border-radius: 0.5rem;">
-  <img src="./.github/mobile-screenshot-2.png" width="48%" style="
-  border-radius: 0.5rem;">
+<p align="left">       
+  <img src="./.github/mobile-screenshot-1.png" width="35%">
+  <img src="./.github/mobile-screenshot-2.png" width="35%">
 </p>
-
----
 
 ## 🔨 Tecnologias utilizadas
 
@@ -89,7 +75,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 > Veja o arquivo [package.json](https://github.com/mateusabelli/ignite-todo-app/blob/main/package.json)
 
----
 
 ## 🚀 Instalação e uso
 
@@ -109,7 +94,6 @@ npm run dev
 # O servidor inciará na porta:3000 - acesse http://localhost:3000
 ```
 
----
 
 ## 📝 Licença
 
